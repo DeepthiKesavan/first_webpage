@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f8f2;
+    color: #1f2d1f;
+}
+header {
+    padding: 25px 8%;
+    background: #183b2a;
+    color: white;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #cde8d0;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 18px;
+    background: white;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #183b2a;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4d8b57;
+}
+.hero {
+    min-height: 600px;
+    padding: 80px 40px;
+    background: #dcebd8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-tag {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 58px;
+    line-height: 1.15;
+    margin: 15px auto 25px;
+    color: #183b2a;
+}
+
+.hero-description {
+    text-align: center !important;
+    width: 100% !important;
+    margin: 0 auto 15px !important;
+}
+
+.hero-text {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 18px;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #183b2a;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero-button:hover {
+    transform: translateY(-3px);
+}
+
+.hero p {
+    max-width: 650px;
+    margin-bottom: 25px;
+}
+
+.hero a {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #183b2a;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+section {
+    padding: 80px 8%;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+article {
+    background: white;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    display: inline-block;
+    width: 21%;
+    vertical-align: top;
+}
+
+article h3 {
+    margin-bottom: 12px;
+}
+footer {
+    background: #183b2a;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+@media (max-width: 768px) {
+
+    nav {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .hero h2 {
+        font-size: 35px;
+    }
+
+    article {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
